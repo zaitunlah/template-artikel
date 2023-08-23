@@ -1,1 +1,1 @@
-# template-artikel
+# LaTeX Template untuk artikel
