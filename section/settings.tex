@@ -1,0 +1,33 @@
+\usepackage{amsmath}  % For math
+\usepackage{amssymb}  % For more math
+\usepackage{enumerate} % useful for itemization
+\usepackage{enumitem}
+\usepackage{siunitx}  % standardization of si units
+\usepackage{graphicx}
+\usepackage{lipsum}
+\graphicspath{{./gambar/}} %picture path
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+
+%Stop indentation on new paragraphs
+\usepackage[parfill]{parskip}
+\usepackage[numbers]{natbib}
+% Since natbib uses an unnumbered section by default we define \bibsection
+% to make it a regular numbered section.
+\renewcommand\bibsection{\section{Daftar Pustaka}}
+\bibliographystyle{ieeetr}
+%citecolor
+\usepackage[colorlinks,linkcolor={black},citecolor={blue!80!black},urlcolor={blue!80!black}]{hyperref}
+
+\usepackage{lastpage}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	%total={170mm,257mm},
+	left=25mm,
+	right=20mm,
+	top=25mm,
+	bottom=20mm,
+}
